@@ -4,37 +4,46 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="Content-Language" content="en">
     <meta name="viewport" content="width=device-width">
-    <title>Email template</title>
+    <title>{{emailTitle}}</title>
     <style type="text/css">
-    
+
     </style>
 </head>
 
 <body>
-  <table class="emailBody" title="emailBody">
+  <table class="emailBody">
     <tr>
       <td>
         <table>
-          <tr class="browserView" title="browserView">
+          <tr class="browserView">
             <td>
 
             </td>
           </tr>
 
-          <tr class="mainBody" title="mainBody">
+          <tr class="mainBody">
             <td>
               <table>
-                <tr class="header" title="header">
+                <tr class="header">
+                  <td>
+                    <table>
+                      <tr class="headerOne">
+                          <img src="{{headerOneUrl}}">
+                      </tr>
+
+                      <tr class="headerTwo">
+                          <img src="{{headerTwoUrl}}">
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <tr class="body">
                   <td>
                   </td>
                 </tr>
 
-                <tr class="body" title="body">
-                  <td>
-                  </td>
-                </tr>
-
-                <tr class="footer" title="footer">
+                <tr class="footer">
                   <td>
                   </td>
                 </tr>
@@ -45,6 +54,7 @@
       </td>
     </tr>
   </table>
+  <script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
