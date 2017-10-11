@@ -8,7 +8,6 @@ var headerSource = $('#headerOneImg').html();
 var compileScript = Handlebars.compile(source);
 
 var context = {
-    "emailTitle" : "Email Template",
     "headerOneUrl" : "#",
     "headerTwoUrl" : "#",
 };
@@ -16,3 +15,5 @@ var context = {
 var html = compileScript(context);
 
 $(document.body).append(html);
+
+browserify main.js -o bundle.js
