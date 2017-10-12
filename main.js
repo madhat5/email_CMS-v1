@@ -1,5 +1,5 @@
-var handlebars = require('handlebars');
-
+// DEPENDENCIES & SERVER
+var     handlebars  = require('handlebars');
 
 // HTML retrieval
 var headerSource = $('#headerOneImg').html();
@@ -16,4 +16,4 @@ var html = compileScript(context);
 
 $(document.body).append(html);
 
-browserify main.js -o bundle.js
+// browserify main.js -o bundle.js
