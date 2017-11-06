@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WSJ Email Template</title>
+
+    <!-- <script src="js/handlebars.runtime.js"></script>
+    <script src="js/main.js"></script> -->
+
+    <!--[if !IE]><!-->
+    <style type="text/css">
+        /*INSERT CUSTOM STYLE*/
+    </style>
+    <!--<![endif]-->
+
+    <!--[if IE]>
+        <style>
+            .ieHide {
+                display: none !important;
+                height: 0px !important;
+                weight: 0px !important;
+            }
+        </style>
+    <![endif]-->
+
+</head>
+
+<body style="height:100%; margin:0px; padding:0px; -webkit-text-size-adjust:none;">
+    <!--[if (gte mso 9)|(IE)]>
+    <table class="mso" width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td>
+    <![endif]-->
+    <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; text-align:center; margin:0 auto; padding:0;">
+        {{> _header }}
+		{{> _hero }}
+		{{> _copy }}
+        {{> _cta }}
+		{{> _footer }}
+    </table>
+    <!--[if (gte mso 9)|(IE)]>
+            </td>
+        </tr>
+    </table>
+    <![endif]-->
+</body>
+</html>
