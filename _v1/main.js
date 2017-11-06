@@ -15,5 +15,3 @@ var context = {
 var html = compileScript(context);
 
 $(document.body).append(html);
-
-// browserify main.js -o bundle.js
